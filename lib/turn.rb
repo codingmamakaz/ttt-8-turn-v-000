@@ -41,6 +41,11 @@ puts "Please enter 1-9:"
   user_input = gets.strip
   input_to_index(user_input)
 
+  index = user_input.to_i - 1
+  if valid_move?(board, index)
+    move
+  else
+
 #
 #   input_to_index = 0
 #   while input_to_index < 9
