@@ -38,12 +38,12 @@ end
 
 def turn(board)
 puts "Please enter 1-9:"
-input_to_index = gets.strip
-input_to_index()
-
-  input_to_index = 0
-  while input_to_index < 9
-    input_to_index += 1
-    puts "Please enter 1-9:"
-  end
+# input_to_index = gets.strip
+# input_to_index()
+#
+#   input_to_index = 0
+#   while input_to_index < 9
+#     input_to_index += 1
+#     puts "Please enter 1-9:"
+#   end
 end
