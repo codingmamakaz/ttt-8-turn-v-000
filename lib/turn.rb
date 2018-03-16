@@ -48,12 +48,11 @@ puts "Please enter 1-9:"
     puts "Please enter 1-9:"
       user_input = gets.strip
       input_to_index(user_input)
+      input_to_index = 0
+      while input_to_index < 9
+        input_to_index += 1
+        puts "Please enter 1-9:"
+      end
     end
 
 #
-#   input_to_index = 0
-#   while input_to_index < 9
-#     input_to_index += 1
-#     puts "Please enter 1-9:"
-#   end
-end
