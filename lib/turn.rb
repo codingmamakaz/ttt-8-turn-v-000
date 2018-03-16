@@ -46,7 +46,7 @@ puts "Please enter 1-9:"
     move(board, index, value = "X")
   else
 
-      
+
         puts "Please enter 1-9:"
           user_input = gets.strip
           input_to_index(user_input)
