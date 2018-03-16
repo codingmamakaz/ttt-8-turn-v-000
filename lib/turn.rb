@@ -43,7 +43,7 @@ puts "Please enter 1-9:"
 
   index = user_input.to_i - 1
   if valid_move?(board, index)
-    move
+    move(board, index, value = "X")
   else
 
 #
