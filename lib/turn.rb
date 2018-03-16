@@ -46,12 +46,15 @@ puts "Please enter 1-9:"
     move(board, index, value = "X")
   else
 
-      input_to_index = 0
-      while input_to_index < 9
-        input_to_index += 1
+
         puts "Please enter 1-9:"
           user_input = gets.strip
           input_to_index(user_input)
         end
       end
     end
+
+
+    # input_to_index = 0
+    # while input_to_index < 9
+    #   input_to_index += 1
